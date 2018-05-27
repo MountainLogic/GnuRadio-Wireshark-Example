@@ -17,6 +17,6 @@ Type=Custom dissector, Data Link Type = -1, Disector=wpan   NOTE lower case wpan
 
 Example uses Lime SDR as the source, but other SDRs in the 2.4 GHz band should work.  (Sorry the $10 euro DTV dongles will not reach up to this freq).
 
-This is mostly based on the vry good example at https://rftap.github.io/blog/2016/09/04/rftap-zigbee.html and https://github.com/rftap/gr-rftap/tree/master/examples and my initial commit of the LQI EPY block is all their code.  I hope to expand it to be more Lime SDR driver centric in the future.  Thank you RFtap team 
+This is mostly based on the very good example at https://rftap.github.io/blog/2016/09/04/rftap-zigbee.html and https://github.com/rftap/gr-rftap/tree/master/examples and my initial commit of the LQI EPY block is all their code.  The demod component is described at https://static1.squarespace.com/static/543ae9afe4b0c3b808d72acd/t/55dcd9a0e4b0eeb6c002b24f/1440536992248/8.+wunsch_felix-IEEE_802.15.4+2015-08-25.pdf.  I hope to expand it to be more Lime SDR driver centric in the future.  Thank you RFtap and GR-IEEE_802.15.4 teams. 
 
-Please contact the author with questions.
+Please contact me with questions or enter an issue  -scott.
