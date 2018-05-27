@@ -13,7 +13,7 @@ From wireshark startview (config dialog): Wireshark  - Interface Options:UDP Lis
   Payload Type: rftap
 
 In GnuRadio/RFtap Encapulation use:
-Type=Custom dissector, Data Link Type = -1, Disector=wpan   NOTE lower case wpan is the id of IEEE 802.15.4  <b>N.B. this is different from the RFtap example as Data Link Type 195 did not work fo rme</b> 
+Type=Custom dissector, Data Link Type = -1, Disector=wpan   NOTE lower case wpan is the id of IEEE 802.15.4  <b>N.B. this is different from the RFtap example as Data Link Type 195 did not work for me</b> 
 
 Example uses Lime SDR as the source, but other SDRs in the 2.4 GHz band should work.  (Sorry the $10 euro DTV dongles will not reach up to this freq).
 
